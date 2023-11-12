@@ -1,3 +1,3 @@
 # Portfolio
 
-My portfolio website: http://sahil-randhawa.github.io
+My portfolio website: http://sahil-randhawa.github.io/portfolio
