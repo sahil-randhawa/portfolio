@@ -19,7 +19,6 @@ function Github() {
                 color="#c084f5"
                 fontSize={16}
             />
-            {/* <a href="https://github.com/sahil-randhawa" target="_blank" rel="noopener noreferrer"> */}
             <div style={
                 {
                     zIndex: 10,
@@ -32,7 +31,6 @@ function Github() {
                 >
                     <AiOutlineGithub style={{ marginBottom: "2px", fontSize: "1.1em" }} /> GitHub
                 </Button>
-                {/* </a> */}
             </div>
         </Row >
     );
