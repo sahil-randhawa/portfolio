@@ -1,6 +1,10 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import {
+    AiOutlineGithub,
+} from "react-icons/ai";
 
 function Github() {
     return (
@@ -15,7 +19,22 @@ function Github() {
                 color="#c084f5"
                 fontSize={16}
             />
-        </Row>
+            {/* <a href="https://github.com/sahil-randhawa" target="_blank" rel="noopener noreferrer"> */}
+            <div style={
+                {
+                    zIndex: 10,
+                }
+            }>
+                <Button
+                    href="https://github.com/sahil-randhawa"
+                    target="_blank"
+                    className="fork-btn-inner"
+                >
+                    <AiOutlineGithub style={{ marginBottom: "2px", fontSize: "1.1em" }} /> GitHub
+                </Button>
+                {/* </a> */}
+            </div>
+        </Row >
     );
 }
 
